@@ -1,0 +1,9 @@
+BackgroundService
+
+- Não é paralelo no sentido de obrigatoriamente criar nova thread apenas pra ele
+- Mesmo processo de inicialização do projeto
+- Trabalho gerenciado pelo Host (ideia do token dele)
+- Ele seria outro fluxo de trabalho(ideia de ação realizada)
+- Ele registra um trabalho de longa duração, sendo executado e a contexto da api espera, e seguindo assim.
+- Ele pode rodar concorrentemente com a API mas ao usar ele 
+	não necessariamente é reservado uma nova thread especificamente pra ele
