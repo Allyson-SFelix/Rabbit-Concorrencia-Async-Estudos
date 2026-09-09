@@ -1,0 +1,6 @@
+
+dotnet build //compilar sem executar
+dotnet run // compilar e rodar 
+
+dotnet new list // mostra os templates de projetos
+dotnet new template // console(temrinal) ou worker
